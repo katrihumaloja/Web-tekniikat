@@ -1,0 +1,84 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    background-color: #EEEDE7;
+    margin-bottom: 120px;
+}
+
+footer {
+    background-color: #DCD2CC;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+}
+
+.navbar, #navbar {
+    background-color: #DCD2CC;
+    padding-top: 10px;
+    font-weight: 500;
+}
+
+img {
+    max-width: 90%;
+    opacity: 0.7;
+}
+
+p {
+    margin-top: 20px;
+    margin-right: 40px;
+    margin-left: 40px;
+    text-align: justify;
+    font-size: 1.2em;
+}
+
+#article {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#articletext {
+    text-align: center;
+    align-self: center;
+    margin-top: 20px;
+}
+
+#textbox {
+    color: #3A6A59;
+    margin-left: 20px;
+}
+
+.btn {
+    background-color: #D9E4EC;
+    margin-bottom: 10px;
+}
+
+.btn:hover {
+    background-color: #B5A4A3;
+}
+
+h2, h5, h1 {
+    text-align: center;
+    font-family: 'Playfair Display';
+    font-weight: bold;
+}
+
+h6 {
+    margin: 20px;
+}
+
+.card {
+    background-color: #E7D2CC;
+    min-width: 90%;
+    margin-left: 80px;
+    align-items: center;
+    padding: 20px;
+    height: auto;
+}
+
+#board {
+    width: 95%;
+}

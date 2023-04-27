@@ -1,61 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fi">
 
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ravintolat ja kahvilat</title>
-  <link rel="shortcut icon" href="" type="image/x-icon">
-  <link href='https://fonts.googleapis.com/css?family=Playfair Display' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Playfair%20Display|Rammetto%20One' rel='stylesheet'>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-  <link rel="stylesheet" href="../styles/style.css">
+  <link rel="stylesheet" href="../SASS/styles/style.css">
 </head>
 
 <body>
   <!--Navbar alkaa tästä-->
   <div class="col-12" id="navbar">
     <h2>Ravintolat ja kahvilat</h2>
-    <nav class="navbar navbar-expand-lg navbar-light">
-      <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="../index.html">Etusivu</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../pages/attractions.html">Nähtävyydet</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../pages/eat.html">Ravintolat ja kahvilat</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../pages/ukk.html">FAQ</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../pages/board.html">Ilmoitustaulu</a>
-            </li>
-          </ul>
-        </div>
+    <nav class="navbar navbar-expand-lg">
+      <a class="navbar-brand" href="#"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html">ETUSIVU <span class="sr-only"></span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/attractions.html">NÄHTÄVYYDET</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/eat.html">RAVINTOLAT JA KAHVILAT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/faq.html">FAQ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/board.html">ILMOITUSTAULU</a>
+          </li>
+        </ul>
       </div>
     </nav>
   </div>
   <!--Navbar loppuu tähän-->
 
   <!--Main alkaa tästä-->
+  <div class="col-sm" id="article">
+    <h5>Pohditko, miten Helsingistä voisi nauttia vapaa-ajalla? Helsinki on lomailijan paratiisi, josta tekeminen ei
+      ihan helpolla lopu! Täältä löydät Helsingin parhaat ravintolat ja kahvilat - tutustu ainakin näihin!</h5>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis est neque eos cupiditate consequuntur officiis,
+      ut optio, culpa perferendis nostrum aliquam provident a animi quis aperiam recusandae architecto! Eum, et.
+      Tempore atque, optio eligendi dignissimos consequuntur vitae. Odio aut reiciendis quas similique qui delectus
+      placeat nostrum, deleniti inventore minima distinctio neque, possimus sed explicabo et itaque perspiciatis
+      voluptas iusto facere?
+      Magni eaque autem distinctio. Nulla fugit magni corrupti est quae excepturi sit ipsam iure quos facere? Eligendi
+      dignissimos in, temporibus dicta est, sunt placeat exercitationem numquam minima nulla, quis ad.
+      Explicabo sapiente incidunt consequatur dolore expedita. Voluptatum veritatis velit nobis animi voluptates ducimus
+      totam optio architecto cum inventore magnam unde, amet, fugit esse vel id hic laboriosam omnis ipsum quasi?
+      Repellendus corporis modi officiis repudiandae dolor hic, ducimus maiores quos consequuntur! Sit, ad omnis. Quidem
+      velit labore illum fugiat explicabo quasi aliquid aut eum doloremque, facilis vel alias saepe recusandae.</p>
+  </div>
+
   <div class="row g-0">
-    <div class="col-sm-md" id="article">
+    <div class="col-sm-md" id="eat">
       <div class="card mb-3" style="max-width: 540px;">
         <div class="row g-0">
-          <div class="col-md-4">
+          <div class="col-md-10">
             <img src="../images/regatta.jpg" class="img-fluid rounded-start" alt="">
           </div>
-          <div class="col-md-8">
+          <div class="col-md-10">
             <div class="card-body">
               <h5 class="card-title">Cafe Regatta</h5>
               <p class="card-text">Meren rannalla pieni punainen hirsitupa, jonka seinillä on ryijy, harmonikka,
@@ -70,27 +84,28 @@
       </div>
       <div class="card mb-3" style="max-width: 540px;">
         <div class="row g-0">
-          <div class="col-md-4">
+          <div class="col-md-10">
             <img src="../images/huvila.jpg" class="img-fluid rounded-start" alt="">
           </div>
-          <div class="col-md-8">
+          <div class="col-md-10">
             <div class="card-body">
               <h5 class="card-title">Sinisen Huvilan Kahvila</h5>
               <p class="card-text">Kesäinen ulkoilmakahvila Töölönlahden rannalla Linnunlaulun huvila-alueella, vuonna
                 1896 rakennetun Sinisen Huvilan pihapiirissä.</p>
-              <p>Nauti kahvilan oman leipurin leivonnaisista ja tuoreesta kahvista, Chjokon jäätelöistä ja suomalaisten
+              <p class="card-text">Nauti kahvilan oman leipurin leivonnaisista ja tuoreesta kahvista, Chjokon
+                jäätelöistä ja suomalaisten
                 pientoimittajien tuotteista, myös vegaanisia ja gluteenittomia tuotteita.</p>
-              <p>Kahvila on lemmikkiystävällinen.</p>
+              <p class="card-text">Kahvila on lemmikkiystävällinen.</p>
             </div>
           </div>
         </div>
       </div>
       <div class="card mb-3" style="max-width: 540px;">
         <div class="row g-0">
-          <div class="col-md-4">
+          <div class="col-md-10">
             <img src="../images/palace.jpg" class="img-fluid rounded-start" alt="">
           </div>
-          <div class="col-md-8">
+          <div class="col-md-10">
             <div class="card-body">
               <h5 class="card-title">Ravintola Palace</h5>
               <p class="card-text">Kaupungin kattojen yllä Etelärannassa sijaitseva Palace on aina ollut suomalaisen
@@ -98,23 +113,24 @@
                 ensimmäinen Michelin-tähdellä palkittu ravintola vuonna 1987. Tätä nykyä Palacen keittiötä johtaa
                 keittiöpäällikkö Eero Vottonen, jonka tavoitteena on tarjota vierailleen hienostunut mutta
                 yllätyksellinen pohjoismainen ravintolaelämys.</p>
-              <p>Ravintolalla on kaksi Michelin tähteä.</p>
+              <p class="card-text">Ravintolalla on kaksi Michelin tähteä.</p>
             </div>
           </div>
         </div>
       </div>
       <div class="card mb-3" style="max-width: 540px;">
         <div class="row g-0">
-          <div class="col-md-4">
+          <div class="col-md-10">
             <img src="../images/savoy.jpg" class="img-fluid rounded-start" alt="...">
           </div>
-          <div class="col-md-8">
+          <div class="col-md-10">
             <div class="card-body">
               <h5 class="card-title">Ravintola Savoy</h5>
               <p class="card-text">Ravintola Savoy on kuulunut helsinkiläisen ravintolamaailman ehdottomiin huippuihin
                 1930-luvulta asti. Marsalkka Mannerheim oli sen tunnetuimpia asiakkaita, ja Marskin suosikit ovat
                 edelleen ruokalistalla, kuten esim. vorschmack.</p>
-              <p>Savoy perustettiin vuonna 1937, ja uuden ravintolan suunnittelijoiksi valittiin arkkitehdit Aino ja
+              <p class="card-text">Savoy perustettiin vuonna 1937, ja uuden ravintolan suunnittelijoiksi valittiin
+                arkkitehdit Aino ja
                 Alvar Aalto. Savoyn sisustus noudattaa edelleen Aaltojen alkuperäistä suunnitelmaa, joka jakaa tilan
                 tunnelmalliseen ravintolasaliin sekä sitä kolmelta puolelta ympäröiviin terasseihin. Sisustuksessa näkyy
                 Aaltojen mieltymys puhdaslinjaisiin ja toimiviin kalusteisiin sekä laadukkaisiin luonnonmateriaaleihin.
@@ -126,23 +142,24 @@
       </div>
       <div class="card mb-3" style="max-width: 540px;">
         <div class="row g-0">
-          <div class="col-md-4">
+          <div class="col-md-10">
             <img src="../images/gron.jpg" class="img-fluid rounded-start" alt="...">
           </div>
-          <div class="col-md-8">
+          <div class="col-md-10">
             <div class="card-body">
               <h5 class="card-title">Grön</h5>
               <p class="card-text">Grön on maukasta, modernia, kasvipainotteista sekä inspiroivaa ruokaa, jossa
                 panostetaan korkealaatuisiin raaka-aineisiin. Ruoka on myös kausi- ja luomukeskeistä. Ravintolassa
                 käytetään mahdollisimman paljon pohjoismaalaisia ja luonnon omia villituotteita. Mitä luonnossa tällä
                 hetkellä kasvaa, määrittää sen mitä on tarjolla.</p>
-              <p>Ravintolalle on myönnetty yksi Michelin-tähti.</p>
+              <p class="card-text">Ravintolalle on myönnetty yksi Michelin-tähti.</p>
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
+  <!--Main loppuu tähän-->
 
   <!--Footer alkaa tästä-->
   <div class="row g-0">
@@ -154,8 +171,14 @@
   </div>
   <!--Footer loppuu tähän-->
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
 </body>
 

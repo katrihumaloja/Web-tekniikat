@@ -1,0 +1,179 @@
+/*Katri Humaloja*/
+
+/* Sivun muotoilua */
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    background-color: #EEEDE7;
+    margin-bottom: 120px;
+}
+
+/* Footerin muotoilua */
+footer {
+    background-color: #8A9EA0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Navbarin muotoilua */
+.navbar, #navbar {
+    background-color: #8A9EA0;
+    padding-top: 10px;
+    font-weight: 500;
+    font-size: 1.1em;
+}
+
+a {
+    text-decoration: none;
+}
+ 
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Kuvien muotoilua */
+img {
+    max-width: 70%;
+    opacity: 0.7;
+    margin-bottom: 10px;
+}
+
+.img-fluid {
+    max-width: 90%;
+}
+
+.faqimg{
+    max-width: 78%;
+    opacity: 0.7;
+}
+
+#faqimg {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Tekstin ja tekstiosien muotilua */
+p {
+    text-align: justify;
+    font-size: 1.1em;
+    max-width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    font-family: 'Rammetto One';
+    font-weight: bold;
+    margin-top: 20px;
+    margin: 0 auto;
+    max-width: 50%;
+    text-align: center;
+    align-self: center;
+    padding-top: 10px;
+}
+
+h5, h1 {
+    font-family: 'Playfair Display';
+    font-weight: bold;
+    margin-top: 20px;
+    margin: 0 auto;
+    max-width: 50%;
+    text-align: center;
+    align-self: center;
+    padding-top: 10px;
+}
+
+h6 {
+    margin: 20px;
+}
+
+#article {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#articletext {
+    text-align: center;
+    align-self: center;
+    margin-top: 20px;
+    flex: 1 1 200px;
+}
+
+#attractions {
+    margin-top: 20px;
+}
+
+#eat {
+    margin-top: 20px;
+}
+
+.col-md-10 {
+    margin: 0 auto;
+    text-align: center;
+    align-self: center;
+    padding-top: 25px;
+    min-width: 60%;
+}
+
+#textbox {
+    margin-left: 20px;
+}
+
+/* Buttoneiden muotoilua */
+.btn {
+    background-color: #B0C4DE;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    color: white;
+    background-color: #778899;
+    font-size: 120%;
+}
+
+/* Korttien muotoilua*/
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #99B0B0;
+    min-width: 70%;
+    margin: 0 auto;
+    height: auto;
+    margin-top: 20px;
+}
+
+.card-text {
+    max-width: 90%;
+}
+
+#board {
+    display: flex;
+}
+
+/* Etusivun carousel-osan muotoilua */
+.carousel {
+    min-width: 90%;
+    align-items: center;
+    float: none;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.carousel-inner img {
+    margin: auto;
+}
+
+/* FAQ-sivun Accordion-osion muotoilua */
+.accordion-header {
+    min-width: 100%;
+}
+
+.accordion-item {
+    min-width: 90%;
+}

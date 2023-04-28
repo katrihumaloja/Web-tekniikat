@@ -9,6 +9,7 @@ html {
 body {
     background-color: #EEEDE7;
     margin-bottom: 120px;
+    font-family: 'Roboto';
 }
 
 /* Footerin muotoilua */
@@ -25,7 +26,7 @@ footer {
 #navbar {
     background-color: #8A9EA0;
     padding-top: 10px;
-    font-weight: 500;
+    font-weight: bold;
     font-size: 1.1em;
 }
 
@@ -143,7 +144,7 @@ h6 {
 .card {
     display: flex;
     flex-wrap: wrap;
-    background-color: #99B0B0;
+    background-color: #D4D9DD;
     min-width: 70%;
     margin: 0 auto;
     height: auto;
@@ -193,11 +194,13 @@ h6 {
     }
 
     p {
-        max-width: 95%;
+        max-width: 100%;
+        hyphens: auto;
+        text-align: start;
     }
 
     h5 {
-        max-width: 98%;
+        max-width: 97%;
     }
 
     .faqimg {
@@ -215,7 +218,7 @@ h6 {
     }
 
     .card-text {
-        max-width: 95%;
+        max-width: 100%;
     }
 
 }
@@ -236,15 +239,12 @@ h6 {
     }
 
     p {
-        max-width: 95%;
+        max-width: 100%;
+        hyphens: auto;
     }
 
     h5 {
         max-width: 98%;
-    }
-
-    .card {
-        min-width: 90%;
     }
 
     .nav-item {
@@ -263,7 +263,7 @@ h6 {
     }
 
     .card-text {
-        max-width: 95%;
+        min-width: 98%;
     }
 }
 
@@ -274,17 +274,35 @@ h6 {
         justify-content: center;
     }
 
+    img {
+        max-width: 95%;
+    }
+
     h5 {
         max-width: 98%;
+    }
+
+    p {
+        max-width: 100%;
+        hyphens: auto;
+        text-align: start;
     }
 
     .card {
         background-color: #EEEDE7;
         border: none;
+        max-width: 98%;
+    }
+
+    .faqimg {
         max-width: 95%;
     }
 
     .card-text {
-        max-width: 95%;
+        max-width: 98%;
+    }
+
+    .container {
+        min-width: 100%;
     }
 }
